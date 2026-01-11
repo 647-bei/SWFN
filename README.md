@@ -1,6 +1,6 @@
 # SWFN: A Bio-Inspired Spiking-Wavelet Network for Compressed 360-Degree Video Enhancement
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 [![Status](https://img.shields.io/badge/Status-Submitted-yellow.svg)]()
 
 > 📢 **Note:** This repository is the official implementation of the paper **"SWFN: A Bio-Inspired Spiking-Wavelet Network for Compressed 360-Degree Video Enhancement"**.
