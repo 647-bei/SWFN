@@ -5,7 +5,7 @@
 
 > 📢 **Note:** This repository is the official implementation of the paper **"SWFN: A Bio-Inspired Spiking-Wavelet Network for Compressed 360-Degree Video Enhancement"**.
 >
-> **The full source code, pre-trained weights, and training scripts will be made publicly available immediately upon the acceptance of the paper.**
+> **The full source code will be made publicly available immediately upon the acceptance of the paper.**
 
 ## 📖 Introduction
 
