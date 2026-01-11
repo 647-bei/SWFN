@@ -1,26 +1,26 @@
 # SWFN: A Bio-Inspired Spiking-Wavelet Network for Compressed 360-Degree Video Enhancement
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Submitted-yellow.svg)]()
 
-This repository is the official implementation of the paper: **"SWFN: A Bio-Inspired Spiking-Wavelet Network for Compressed 360-Degree Video Enhancement"**.
+> 📢 **Note:** This repository is the official implementation of the paper **"SWFN: A Bio-Inspired Spiking-Wavelet Network for Compressed 360-Degree Video Enhancement"**.
+>
+> **The full source code, pre-trained weights, and training scripts will be made publicly available immediately upon the acceptance of the paper.**
 
+## 📖 Introduction
 
+**SWFN** is a novel neuromorphic-inspired architecture designed for the restoration of compressed 360-degree videos. By mimicking the **Magnocellular-Parvocellular (M-P)** dual-stream mechanism of the primate visual system, SWFN effectively decouples global structural modeling from fine-grained texture refinement.
 
-## 🚀 Overview
-
-**SWFN** is a neuromorphic-inspired architecture designed for enhancing compressed 360-degree videos. Guided by the primate **Magnocellular-Parvocellular (M-P) dual-stream theory**, the network effectively mitigates geometric distortions (from Equirectangular Projection) and restores high-frequency details.
-
-### Key Features:
-* **Bio-Inspired M-P Pathways:** Decouples global structural modeling (M-pathway) from fine-grained texture refinement (P-pathway).
-* **Transformer-SNN Block (TSB):** Captures global dependencies using energy-efficient sparse spiking dynamics.
-* **Residual Wavelet Fusion Block (RWFB):** Emulates hierarchical frequency tuning (V1, V2, V4) to resolve high-frequency details.
-* **SOTA Efficiency:** Achieves state-of-the-art performance on 4K/8K datasets with only **1.48M parameters** and **2.32 GFLOPs**.
-
+### Key Contributions:
+* **Bio-Inspired Architecture:** Integrates Spiking Neural Networks (SNNs) with Wavelet transforms to mimic the M-P pathways.
+* **Efficiency:** Achieves state-of-the-art performance on 4K/8K datasets with only **1.48M parameters** and **2.32 GFLOPs**.
+* **Performance:** Superior restoration of geometric distortions caused by Equirectangular Projection (ERP).
 
 ## 🖼️ Model Architecture
 
+The overall architecture of the proposed SWFN framework is shown below:
 
-*Figure: The overall architecture of the proposed SWFN framework. It mimics the functional division of the primate visual system using a dual-stream design.*
 ![Uploading model.jpg…]()
 
-> **Note:** For a detailed view of the modules (TSB, RWFB), please refer to the paper.
+
 
