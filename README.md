@@ -18,8 +18,9 @@ This repository is the official implementation of the paper: **"SWFN: A Bio-Insp
 
 ## 🖼️ Model Architecture
 
-![SWFN Architecture]([model.png](https://github.com/user-attachments/assets/58c34f7b-3425-4674-a3da-3e24ad5c10e4))
+
 *Figure: The overall architecture of the proposed SWFN framework. It mimics the functional division of the primate visual system using a dual-stream design.*
+![Uploading model.jpg…]()
 
 > **Note:** For a detailed view of the modules (TSB, RWFB), please refer to the paper.
 
