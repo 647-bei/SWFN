@@ -13,12 +13,12 @@ This repository is the official implementation of the paper: **"SWFN: A Bio-Insp
 * **Bio-Inspired M-P Pathways:** Decouples global structural modeling (M-pathway) from fine-grained texture refinement (P-pathway).
 * **Transformer-SNN Block (TSB):** Captures global dependencies using energy-efficient sparse spiking dynamics.
 * **Residual Wavelet Fusion Block (RWFB):** Emulates hierarchical frequency tuning (V1, V2, V4) to resolve high-frequency details.
-* **SOTA Efficiency:** Achieves state-of-the-art performance on 4K/8K datasets with only **1.48M parameters** and **2.32 GFLOPs**.![model](https://github.com/user-attachments/assets/58c34f7b-3425-4674-a3da-3e24ad5c10e4)
+* **SOTA Efficiency:** Achieves state-of-the-art performance on 4K/8K datasets with only **1.48M parameters** and **2.32 GFLOPs**.
 
 
 ## 🖼️ Model Architecture
 
-![SWFN Architecture](model.png)
+![SWFN Architecture]([model.png](https://github.com/user-attachments/assets/58c34f7b-3425-4674-a3da-3e24ad5c10e4))
 *Figure: The overall architecture of the proposed SWFN framework. It mimics the functional division of the primate visual system using a dual-stream design.*
 
 > **Note:** For a detailed view of the modules (TSB, RWFB), please refer to the paper.
